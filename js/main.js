@@ -5,11 +5,22 @@ $(function(){
         slidesToShow: 2,
         slidesToScroll: 2,
         arrows: false,
-        dots: true
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1106,
+                settings: {
+                    slidesToScroll: 1,
+                    slidesToShow: 1
+                }
+            },
+        ]
     });
 
 
-
+    $('.btn__menu').on('click', function(){
+        $('.menu__list').slideToggle();
+    });
 
 
 });

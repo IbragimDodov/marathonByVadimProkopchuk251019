@@ -33,6 +33,17 @@ body {
     min-height: 87px;
 }
 
+.btn__menu {
+    display: none;
+    width: 40px;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
 .menu__list {
     display: flex;
 }
@@ -272,6 +283,13 @@ body {
     padding: 20px 10px;
 }
 
+.sponsors {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     background-color: #304054;
     padding: 80px 0 125px;
@@ -380,15 +398,15 @@ body {
     margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
     margin: 0 50px;
+    padding-bottom: 70px;
 }
 
 .reviews-slider .slick-dots {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .reviews-slider .slick-dots li {
